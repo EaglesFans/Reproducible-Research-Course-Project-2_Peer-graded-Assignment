@@ -180,7 +180,7 @@ ggplot(dataset_harmful_reshape, aes(reorder(EVTYPE, -value), value, fill = varia
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5))
 ```
 
-![plot of chunk Make a plot to show the 10 harmful events with respect to population health](figure/Make a plot to show the 10 harmful events with respect to population health-1.png)
+![plot of chunk Make a plot to show the 10 harmful events with respect to population health](<figure/Make a plot to show the 10 harmful events with respect to population health-1.png>)
 
 #### Findings:
 * **Tornadoes** are **the most harmful event** for both fatalities and injuries. The ranking is followed by Excessive Heat, TSTM Wind, Flood, Lightning, Heat, Flash Flood, Ice Storm, Thunderstorm Wind, and Winter Storm. 
