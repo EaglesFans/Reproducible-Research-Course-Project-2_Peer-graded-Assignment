@@ -218,7 +218,7 @@ ggplot(economic_consequences_reshape, aes(reorder(EVTYPE, -value), value/10^6, f
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5))
 ```
 
-![plot of chunk Make a plot for the top 10 economic consequences](figure/Make a plot for the top 10 economic consequences-1.png)
+![plot of chunk Make a plot for the top 10 economic consequences](<figure/Make a plot for the top 10 economic consequences-1.png>)
 
 #### Findings:
 * With regard to the **combined damage costs** of property damage and crop damage, **flood** causes **the most significant economic consequences**. The ranking is followed by Hurricane/Typhoon, Tornado, Storm Surge, Hail, Flash Flood, Drought, Hurricane, River Flood, and Ice Storm.
